@@ -22,7 +22,7 @@ if(!$result){
 
 if($result->num_rows > 0){
     while($row = $result->fetch_assoc()){
-        echo "Id: ".$row['post_id']."<br>".
+        echo "Id: ".$row['id']."<br>".
             "Title: ".$row['title']."<br>".
             "Content: ".$row['content']."<br>".
             "Date:  ".$row['date']."<br>";
