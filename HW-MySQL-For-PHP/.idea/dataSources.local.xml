@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Blog - blog@localhost" uuid="04a807bd-f7e2-403e-8165-a93173e9b1e0">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>blog:</introspection-scope>
+      <resolve-scope>blog:</resolve-scope>
+    </data-source>
+  </component>
+</project>
