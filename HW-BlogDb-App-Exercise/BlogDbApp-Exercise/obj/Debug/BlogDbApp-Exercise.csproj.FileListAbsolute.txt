@@ -1,0 +1,10 @@
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\bin\Debug\BlogDbApp-Exercise.exe.config
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\bin\Debug\BlogDbApp-Exercise.exe
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\bin\Debug\BlogDbApp-Exercise.pdb
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\obj\Debug\BlogDbApp-Exercise.csprojResolveAssemblyReference.cache
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\obj\Debug\BlogDbApp-Exercise.exe
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\obj\Debug\BlogDbApp-Exercise.pdb
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\bin\Debug\EntityFramework.dll
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\bin\Debug\EntityFramework.SqlServer.dll
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\bin\Debug\EntityFramework.xml
+F:\Software Technologies\EntityFramework\BlogDbApp-Exercise\BlogDbApp-Exercise\bin\Debug\EntityFramework.SqlServer.xml
