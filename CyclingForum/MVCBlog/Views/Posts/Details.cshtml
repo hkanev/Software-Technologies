@@ -1,0 +1,38 @@
+﻿@model MVC_Blog.Models.Post
+<h2>@Html.DisplayFor(model => model.Title)</h2>
+<hr />
+<div class="row">
+    <div class="post col-md-3">
+        <div class="about">
+            Posted by<br/> @if (Model.Author != null)
+            {             
+                <i>
+                    @Model.Author.FullName<br />
+                    (@Model.Author.UserName)
+                </i>
+            }
+            else
+            {
+                @: <i>(Annonymous)</i>
+            }<br>
+            on <i>@Model.Date</i>
+        </div>
+    </div>
+
+    <div class="post col-md-8">
+        <div>
+            @Html.Raw(Model.Body)
+        </div>
+        <p>
+            @if (User.IsInRole("Administrators") || (Model.Author != null && User.Identity.Name == Model.Author.UserName))
+            {
+                @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+                @Html.ActionLink(" | Delete", "Delete", new { id = Model.Id })
+            }
+        </p>
+    </div>
+    <div></div>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

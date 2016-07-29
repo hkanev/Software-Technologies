@@ -1,0 +1,56 @@
+﻿@model IEnumerable<MVC_Blog.Models.Post>
+
+<h2>Posts</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr class="tableHeader">
+        <th>
+           Topics
+        </th>
+        <th>
+            Author
+        </th>
+        <th>
+           Replies
+        </th>
+        <th>
+           Views
+        </th>
+        <th>
+            Last activity
+        </th>   
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td class="odd-td">
+           @Html.ActionLink(item.Title, "Details", new { id = item.Id })
+        </td>
+        <td class="even-td">
+            @if (item.Author != null)
+            {
+                @item.Author.FullName
+            }
+            else
+            {
+                @: <i> (Annonymous) </i>
+             }
+        </td>
+
+        <td class="odd-td">
+            0
+        </td>
+        <td class="even-td">
+            0
+        </td>
+        <td class="odd-td">
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>     
+    </tr>
+}
+
+</table>
+ 
